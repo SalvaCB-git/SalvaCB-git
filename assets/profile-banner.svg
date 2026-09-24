@@ -1,0 +1,123 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 360" role="img" aria-labelledby="title desc">
+  <title id="title">Salvador Cascón Bertomeu — Software and Data Engineer</title>
+  <desc id="desc">Animated engineering pipeline connecting collection, structure, reasoning and validation.</desc>
+
+  <defs>
+    <style>
+      @media (prefers-reduced-motion: reduce) {
+        .motion { display: none; }
+      }
+    </style>
+    <linearGradient id="background" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#07111f"/>
+      <stop offset="0.55" stop-color="#0b1b2d"/>
+      <stop offset="1" stop-color="#111b35"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#38bdf8"/>
+      <stop offset="0.5" stop-color="#2dd4bf"/>
+      <stop offset="1" stop-color="#8b5cf6"/>
+    </linearGradient>
+    <radialGradient id="glow">
+      <stop offset="0" stop-color="#38bdf8" stop-opacity="0.28"/>
+      <stop offset="1" stop-color="#38bdf8" stop-opacity="0"/>
+    </radialGradient>
+    <pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse">
+      <path d="M 32 0 L 0 0 0 32" fill="none" stroke="#93c5fd" stroke-opacity="0.055" stroke-width="1"/>
+    </pattern>
+    <filter id="softGlow" x="-100%" y="-100%" width="300%" height="300%">
+      <feGaussianBlur stdDeviation="5" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+    <clipPath id="frame">
+      <rect width="1200" height="360" rx="24"/>
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="360" fill="url(#background)"/>
+    <rect width="1200" height="360" fill="url(#grid)"/>
+    <circle cx="1040" cy="40" r="260" fill="url(#glow)">
+      <animate class="motion" attributeName="opacity" values="0.55;0.9;0.55" dur="7s" repeatCount="indefinite"/>
+    </circle>
+    <circle cx="120" cy="380" r="230" fill="url(#glow)" opacity="0.25"/>
+
+    <g fill="none" stroke="#7dd3fc" stroke-width="1" opacity="0.16">
+      <path d="M890 34 L1042 90 L1156 42"/>
+      <path d="M936 176 L1088 118 L1176 194"/>
+      <path d="M1042 90 L1088 118 L1156 42"/>
+    </g>
+    <g fill="#7dd3fc">
+      <circle cx="890" cy="34" r="3" opacity="0.3"/>
+      <circle cx="1042" cy="90" r="4" opacity="0.55">
+        <animate class="motion" attributeName="r" values="3;6;3" dur="4s" repeatCount="indefinite"/>
+        <animate class="motion" attributeName="opacity" values="0.35;0.9;0.35" dur="4s" repeatCount="indefinite"/>
+      </circle>
+      <circle cx="1156" cy="42" r="3" opacity="0.35"/>
+      <circle cx="936" cy="176" r="3" opacity="0.3"/>
+      <circle cx="1088" cy="118" r="3" opacity="0.4"/>
+      <circle cx="1176" cy="194" r="3" opacity="0.25"/>
+    </g>
+
+    <g font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <text x="70" y="76" fill="#7dd3fc" font-size="16" font-weight="600" letter-spacing="3">SALVADOR CASCÓN BERTOMEU</text>
+      <text x="70" y="138" fill="#f8fafc" font-size="44" font-weight="700" letter-spacing="-1">Software &amp; Data Engineer</text>
+      <text x="70" y="182" fill="#cbd5e1" font-size="22">Applied AI · Cyber Threat Intelligence</text>
+
+      <g transform="translate(70 211)">
+        <rect width="430" height="42" rx="21" fill="#0f2940" stroke="#38bdf8" stroke-opacity="0.42"/>
+        <circle cx="24" cy="21" r="5" fill="#34d399" filter="url(#softGlow)">
+          <animate class="motion" attributeName="opacity" values="1;0.35;1" dur="2.4s" repeatCount="indefinite"/>
+        </circle>
+        <text x="42" y="27" fill="#dbeafe" font-size="15">EU citizen · Open to relocation across Europe</text>
+      </g>
+    </g>
+
+    <g transform="translate(0 298)" font-family="ui-monospace, SFMono-Regular, Menlo, Consolas, monospace">
+      <line x1="120" y1="0" x2="1080" y2="0" stroke="url(#accent)" stroke-width="2" opacity="0.5"/>
+
+      <g text-anchor="middle" font-size="13" font-weight="600" letter-spacing="1.6">
+        <g transform="translate(120)">
+          <circle r="10" fill="#07111f" stroke="#38bdf8" stroke-width="2"/>
+          <circle r="4" fill="#38bdf8"/>
+          <text y="35" fill="#bae6fd">COLLECT</text>
+        </g>
+        <g transform="translate(440)">
+          <circle r="10" fill="#07111f" stroke="#2dd4bf" stroke-width="2"/>
+          <circle r="4" fill="#2dd4bf"/>
+          <text y="35" fill="#99f6e4">STRUCTURE</text>
+        </g>
+        <g transform="translate(760)">
+          <circle r="10" fill="#07111f" stroke="#818cf8" stroke-width="2"/>
+          <circle r="4" fill="#818cf8"/>
+          <text y="35" fill="#c7d2fe">REASON</text>
+        </g>
+        <g transform="translate(1080)">
+          <circle r="10" fill="#07111f" stroke="#a78bfa" stroke-width="2"/>
+          <circle r="4" fill="#a78bfa"/>
+          <text y="35" fill="#ddd6fe">VALIDATE</text>
+        </g>
+      </g>
+
+      <g filter="url(#softGlow)">
+        <circle cx="120" cy="0" r="4" fill="#7dd3fc">
+          <animate class="motion" attributeName="cx" values="120;440" dur="2.8s" repeatCount="indefinite"/>
+          <animate class="motion" attributeName="opacity" values="0;1;1;0" dur="2.8s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="440" cy="0" r="4" fill="#5eead4">
+          <animate class="motion" attributeName="cx" values="440;760" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
+          <animate class="motion" attributeName="opacity" values="0;1;1;0" dur="2.8s" begin="0.9s" repeatCount="indefinite"/>
+        </circle>
+        <circle cx="760" cy="0" r="4" fill="#a78bfa">
+          <animate class="motion" attributeName="cx" values="760;1080" dur="2.8s" begin="1.8s" repeatCount="indefinite"/>
+          <animate class="motion" attributeName="opacity" values="0;1;1;0" dur="2.8s" begin="1.8s" repeatCount="indefinite"/>
+        </circle>
+      </g>
+    </g>
+
+    <rect x="1" y="1" width="1198" height="358" rx="23" fill="none" stroke="#7dd3fc" stroke-opacity="0.2" stroke-width="2"/>
+  </g>
+</svg>
