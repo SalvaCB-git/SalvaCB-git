@@ -1,46 +1,18 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="1200" height="360" viewBox="0 0 1200 360" role="img" aria-labelledby="title description">
   <title id="title">Salvador Cascón Bertomeu</title>
-  <desc id="description">Computer Engineering graduate based in Cádiz, Spain. An ink drawing of the sea moves slowly beside the name.</desc>
+  <desc id="description">Computer Engineering graduate based in Cádiz, Spain.</desc>
   <style>
     .caption { font-size: 23px; }
-    .swell { animation: tide 12s ease-in-out infinite; }
-    .swell-back { animation-duration: 16s; animation-delay: -6s; }
-    @keyframes tide {
-      0%, 100% { transform: translate(0, 0); }
-      50% { transform: translate(-12px, 5px); }
-    }
-    @media (prefers-reduced-motion: reduce) {
-      .swell { animation: none; }
-    }
     @media (max-width: 600px) {
       .caption { font-size: 38px; }
     }
   </style>
-  <defs>
-    <clipPath id="sea-frame">
-      <rect x="800" y="88" width="340" height="184"/>
-    </clipPath>
-  </defs>
+  <rect x="1" y="1" width="1198" height="358" rx="4" fill="#161b22" stroke="#30363d"/>
+  <path d="M60 48h38" stroke="#c57a60" stroke-width="3"/>
 
-  <rect x="1" y="1" width="1198" height="358" rx="4" fill="#f5f2ea" stroke="#dfded6"/>
-  <path d="M60 48h38" stroke="#ae563c" stroke-width="3"/>
-
-  <g fill="#253d44" font-family="Georgia, 'Times New Roman', serif" font-size="78" letter-spacing="-2">
+  <g fill="#f0ede6" font-family="Georgia, 'Times New Roman', serif" font-size="78" letter-spacing="-2">
     <text x="56" y="136">Salvador</text>
     <text x="56" y="221">Cascón Bertomeu</text>
   </g>
-  <text class="caption" x="60" y="298" fill="#4e625f" font-family="Arial, Helvetica, sans-serif">Computer Engineering · Cádiz, Spain</text>
-
-  <g clip-path="url(#sea-frame)" fill="none" stroke-linecap="round">
-    <circle cx="1068" cy="112" r="9" fill="#ae563c"/>
-    <path d="M854 152h286" stroke="#9caaa3" stroke-width="1.5"/>
-    <g class="swell swell-back" stroke="#78928a" stroke-width="2">
-      <path d="M780 182c30-10 52-10 82 0s52 10 82 0 52-10 82 0 52 10 82 0 52-10 82 0"/>
-      <path d="M790 222c26-8 46-8 72 0s46 8 72 0 46-8 72 0 46 8 72 0 46-8 72 0"/>
-    </g>
-    <g class="swell" stroke="#3d6569" stroke-width="2.5">
-      <path d="M780 201c38-12 64-12 102 0s64 12 102 0 64-12 102 0 64 12 102 0"/>
-      <path d="M810 244c32-10 56-10 88 0s56 10 88 0 56-10 88 0 56 10 88 0"/>
-    </g>
-  </g>
+  <text class="caption" x="60" y="298" fill="#aab8bd" font-family="Arial, Helvetica, sans-serif">Computer Engineering · Cádiz, Spain</text>
 </svg>
