@@ -10,10 +10,4 @@ During my internship at **Recurrent Energy**, I wrote Python tools to validate d
 
 Built with Python, Scrapy, Flask, SQLite and Docker. There is a [read-only demo](https://scraper.143.47.55.55.sslip.io/demo), and the repository includes the evaluation and instructions for reproducing it.
 
-### Other projects
-
-- **FitLife:** an Android app in Java/Kotlin with a Java backend and MySQL, deployed on AWS EC2.
-- **SPH fluid simulator:** a Python particle simulation with spatial hashing to speed up neighbour searches.
-- **STM32 car:** firmware in C for line following, obstacle detection and motor control.
-
 I'm based in Cádiz and looking for a graduate or junior role in software or cybersecurity. I'm available now and would like to work abroad. I have Spanish citizenship and a Cambridge C1 English certificate.
